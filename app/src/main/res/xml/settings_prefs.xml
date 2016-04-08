@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:key="useless_key">
+    <PreferenceCategory android:title="General Setting">
+        <EditTextPreference
+            android:key="rating"
+            android:title="Water Rating"
+            android:summary="Your water rating per cubic meter"
+            android:inputType="numberDecimal" />
+        <EditTextPreference
+            android:key="budget"
+            android:title="Budget"
+            android:summary="Your allocated/desired budget"
+            android:inputType="numberDecimal" />
+        <Preference
+            android:key="default_ble"
+            android:title="Bluetooth Transmitter"
+            android:summary="Choose a default bluetooth transmitter" />
+    </PreferenceCategory>
+</PreferenceScreen>

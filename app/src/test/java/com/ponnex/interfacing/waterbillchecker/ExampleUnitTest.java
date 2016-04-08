@@ -1,4 +1,4 @@
-package com.ponnex.interfacing.waterbill;
+package com.ponnex.interfacing.waterutilitymonitoringsystem;
 
 import org.junit.Test;
 

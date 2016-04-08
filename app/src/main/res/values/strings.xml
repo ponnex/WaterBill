@@ -1,4 +1,13 @@
 <resources>
-    <string name="app_name">Water Bill</string>
+    <string name="app_name">Water Utility Monitoring System</string>
     <string name="action_settings">Settings</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="unknown_service">Unknown service</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Can\'t Connect :\'(</string>
+    <string name="no_data">No data</string>
+    <string name="totalcubicmeter"> m<sup>3</sup></string>
+    <string name="cubicmetersec"> m<sup>3</sup>/s</string>
 </resources>

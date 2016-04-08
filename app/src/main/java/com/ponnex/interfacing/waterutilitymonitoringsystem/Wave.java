@@ -1,4 +1,4 @@
-package com.ponnex.interfacing.waterbill;
+package com.ponnex.interfacing.waterutilitymonitoringsystem;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -24,8 +24,8 @@ class Wave extends View {
     private final float WAVE_HZ_NORMAL = 0.09f;
     private final float WAVE_HZ_SLOW = 0.05f;
 
-    public final int DEFAULT_ABOVE_WAVE_ALPHA = 50;
-    public final int DEFAULT_BLOW_WAVE_ALPHA = 30;
+    public final int DEFAULT_ABOVE_WAVE_ALPHA = 200;
+    public final int DEFAULT_BLOW_WAVE_ALPHA = 150;
 
     private final float X_SPACE = 20;
     private final double PI2 = 2 * Math.PI;
